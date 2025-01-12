@@ -15,7 +15,6 @@ const HomePage = () => {
         setLoader(true);
         setError(null);
         const response = await fetchTrendingMovies();
-        console.log(response);
         setMovielist(response.results);
       } catch (error) {
         setError(error.message);

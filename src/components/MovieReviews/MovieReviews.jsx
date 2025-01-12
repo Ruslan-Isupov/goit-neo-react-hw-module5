@@ -28,7 +28,7 @@ const MovieReviews = () => {
   return reviews?.length > 0 ? (
     <>
       {loader && <Loader />}
-      <ul>
+      <ul className={css.listReviews}>
         {reviews.map((review) => (
           <li key={review.id}>
             <p>
