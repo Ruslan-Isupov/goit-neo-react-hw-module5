@@ -1,0 +1,10 @@
+.boxError {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.error {
+    font-size: 30px;
+    color: red;
+}

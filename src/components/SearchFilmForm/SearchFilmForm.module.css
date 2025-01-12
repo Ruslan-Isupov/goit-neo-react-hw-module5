@@ -1,0 +1,35 @@
+.inputFilm {
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 5px 0 0 5px;
+
+  padding: 6px 12px;
+  border: 1px solid #161616;
+  font-family: inherit;
+  font-size: 20px;
+  color: #333;
+}
+
+.inputFilm:focus {
+  outline: none;
+  border-color: rgb(88, 107, 218);
+  box-shadow: 0 0 5px rgba(102, 175, 233, 0.5);
+}
+
+.buttonForm {
+  display: inline-flex;
+  padding: 6px 12px;
+  border: 1px solid black;
+  border-radius: 0 5px 5px 0;
+  font-family: inherit;
+  font-size: 20px;
+  background-color: rgb(90, 184, 184);
+  color: black;
+  cursor: pointer;
+  text-align: center;
+}
+
+.buttonForm:hover,
+.buttonForm:focus {
+  background-color: rgb(120, 145, 213);
+}

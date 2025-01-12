@@ -1,0 +1,14 @@
+.additionalInf{
+    display:flex;
+    gap:10px;
+    flex-direction:column;
+}
+.additionalBox{
+    border:2px solid grey;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+.additionalLink{
+    text-decoration: none;
+}

@@ -1,0 +1,11 @@
+.movieDescription{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    padding-left:5px;
+}
+.buttonBack {
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
